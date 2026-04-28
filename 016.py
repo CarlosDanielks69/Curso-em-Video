@@ -1,4 +1,4 @@
 import math
 n = float(input('Digite um numero: '))
-inteiro = math.ceil(n)
-print(f'A parte inteira do seu numrto é: {inteiro}')
+inteiro = math.trunc(n)
+print(f'O valor digitado foi {n} e a porção inteira é: {inteiro}')
