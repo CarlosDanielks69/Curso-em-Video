@@ -1,0 +1,7 @@
+nome = input('Nome: ')
+print(f'Nome com todas as letras maiusculas: `{nome.upper()}`')
+print(f'O nome com todas minusculas: {nome.lower()}')
+total = len(nome.replace(' ',''))
+print(f'Quantas letras ao todo (sem considerar espaços) :{total}')
+n = nome.split()
+print(f'Quantas letras tem o primeiro nome: {len(n[0])}')
