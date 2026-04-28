@@ -6,3 +6,4 @@ cosseno = cos(radians(angulo))
 print(f'O angulo de {angulo} tem o COSSENO de {cosseno:.2f}')
 tangente = tan(radians(angulo))
 print(f'O angulo de {angulo} tem a TANGENTE de {tangente:.2f}')
+
