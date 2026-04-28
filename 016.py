@@ -1,3 +1,4 @@
-n = float(input("Digite um numero: "))
-
-print(f"O numero {n} tem a perte inteira {int(n)}")
+import math
+n = float(input('Digite um numero: '))
+inteiro = math.ceil(n)
+print(f'A parte inteira do seu numrto é: {inteiro}')
