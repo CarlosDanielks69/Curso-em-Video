@@ -1,4 +1,4 @@
-n = input('Nome da cidade: ')
+n = input('Nome da cidade: ').upper()
 n0 = n.split()
-n1 = 'Santo' in n0
+n1 = 'SANTO' in n0[0]
 print(n1)
