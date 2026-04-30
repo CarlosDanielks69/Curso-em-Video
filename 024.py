@@ -1,0 +1,6 @@
+n = input('Digite um numer entre 0 e 9999: ')
+n1 = list(n)
+print(f'Unidade: {n1[-1]}')
+print(f'Dezena:  {n1[-2]}')
+print(f'Centena: {n1[-3]}')
+print(f'Milhar:  {n1[-4]}')
