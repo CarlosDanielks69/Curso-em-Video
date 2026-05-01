@@ -1,0 +1,7 @@
+nome = input('Digite uma frase: ').upper()
+n0 = nome.count('A')
+n1 = nome.find('A')
+n2 = nome.rfind('A')
+print(f'Quantas vezes aparece a letra "A": {n0}')
+print(f'Em que posição aparece a primenra vez: {n1+1}')
+print(f'Em que posição aparece a ultima vez: {n2+1}')
