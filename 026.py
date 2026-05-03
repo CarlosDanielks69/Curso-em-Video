@@ -1,4 +1,4 @@
-nome = input('Digite uma frase: ').upper()
+nome = input('Digite uma frase: ').upper().strip()
 n0 = nome.count('A')
 n1 = nome.find('A')
 n2 = nome.rfind('A')
