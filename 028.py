@@ -4,3 +4,4 @@ u = int(input('Em que numero eu pensei? entre 1 e 5: '))
 if n == u:
     print(f'Você acertou!')
 else: print('Você errou!')
+print(f'O numero que o computador pensou foi {n}')
