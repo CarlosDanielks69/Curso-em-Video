@@ -1,5 +1,5 @@
 s = float(input('Qual o seu salario? '))
-if s >= 1250.00:
+if s > 1250.00:
     ns = s * 0.1 + s
     a = 10
 else:
