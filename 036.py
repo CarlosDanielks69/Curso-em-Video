@@ -5,7 +5,7 @@ casa = float(input('Valor da CASA? '))
 anos = float(input('Em quantos ANOS quer pagar? '))
 
 meses = anos * 12
-financiamento = casa // meses
+financiamento = casa / meses
 renda = salario * 0.3
 if financiamento > renda:
     print('-' * 60)
